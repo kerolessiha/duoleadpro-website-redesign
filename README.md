@@ -9,19 +9,13 @@ The redesign presents DuoLeadPro as a stronger digital partner by improving the 
 
 ## Live Preview
 
-Add your deployed link here when ready.
-
-Example:
-`https://your-project.vercel.app`
+https://duoleadpro-website-redesign.vercel.app/
 
 ---
 
 ## GitHub Repository
 
-Add your repository link here after pushing the project.
-
-Example:
-`https://github.com/yourusername/duoleadpro-redesign`
+https://github.com/kerolessiha/duoleadpro-website-redesign
 
 ---
 
