@@ -1,36 +1,252 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DuoLeadPro Website Redesign
 
-## Getting Started
+A modern redesign concept for the **DuoLeadPro** website built with **Next.js**.
+This project focuses on improving **UI/UX, visual hierarchy, and lead conversion** for service businesses.
 
-First, run the development server:
+The redesign presents DuoLeadPro as a stronger digital partner by improving the structure of the website, clarifying the services, and showcasing example projects.
+
+---
+
+## Live Preview
+
+Add your deployed link here when ready.
+
+Example:
+`https://your-project.vercel.app`
+
+---
+
+## GitHub Repository
+
+Add your repository link here after pushing the project.
+
+Example:
+`https://github.com/yourusername/duoleadpro-redesign`
+
+---
+
+## Tech Stack
+
+Main technologies used in this project:
+
+- Next.js (App Router)
+- React
+- JavaScript (JSX)
+- Tailwind CSS
+
+---
+
+## Libraries Used
+
+### UI and Styling
+
+- Tailwind CSS
+- clsx
+- tailwind-merge
+- shadcn/ui
+- lucide-react
+
+### Animations
+
+- framer-motion
+
+### Forms and Validation
+
+- react-hook-form
+- zod
+- @hookform/resolvers
+
+### Components
+
+- embla-carousel-react (image carousel)
+
+### Data Visualization
+
+- recharts (service impact chart)
+
+---
+
+## Website Pages
+
+The redesign includes the following pages:
+
+- Home
+- Services
+- Our Web Design
+- About
+- Contact
+- 404 Not Found
+- Loading state
+
+---
+
+## Key Improvements
+
+### 1. Modern Design Direction
+
+The website was redesigned with:
+
+- dark modern UI
+- improved spacing
+- clearer typography
+- stronger section hierarchy
+- reusable UI components
+
+### 2. Improved Homepage Structure
+
+The homepage was reorganized to guide visitors through a clearer journey:
+
+- Hero section
+- Services overview
+- Case studies preview
+- Process / integrations section
+- FAQ section
+- Final CTA
+
+### 3. Updated Services Page
+
+The services page clearly presents DuoLeadPro offerings:
+
+- Global IT & Sales Staffing
+- Conversion-Boosting Website Development
+- IT Consulting & Scalable Solutions
+- Targeted Lead Generation & Marketing
+
+Each service contains structured descriptions, feature lists, and explanatory sections.
+
+### 4. Case Studies Section
+
+A case studies section was added to demonstrate project directions for service businesses.
+
+Examples include:
+
+- Plumbing company website
+- Electrical company website
+- Painting company website
+
+Each case includes:
+
+- project concept
+- design direction
+- key focus
+- expected impact
+
+### 5. Our Web Design Page
+
+A dedicated page showcases website concepts.
+
+Each project contains:
+
+- title
+- category
+- detailed description
+- image carousel
+- responsive layouts
+
+### 6. About Page
+
+The about page includes:
+
+- company story
+- team members with photos
+- company location
+- Google Maps integration
+- business hours
+
+### 7. Contact Experience
+
+The contact section includes:
+
+- clickable email
+- clickable phone
+- WhatsApp chat link
+- contact form with service selection
+- business information
+
+### 8. Conversion-Focused UX
+
+The redesign focuses on improving lead generation by:
+
+- stronger CTAs
+- simplified navigation
+- clearer messaging
+- improved mobile experience
+
+---
+
+## Project Structure
+
+```text
+src
+├── app
+│   ├── about
+│   ├── contact
+│   ├── loading.jsx
+│   ├── not-found.jsx
+│   ├── our-web-design
+│   ├── services
+│   └── page.jsx
+│
+├── components
+│   ├── ui
+│   │   ├── accordion.jsx
+│   │   ├── button.jsx
+│   │   ├── card.jsx
+│   │   ├── dialog.jsx
+│   │   ├── input.jsx
+│   │   └── textarea.jsx
+│   │
+│   ├── CaseStudies.jsx
+│   ├── FAQ.jsx
+│   ├── FinalCTA.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Integrations.jsx
+│   ├── LeadForm.jsx
+│   ├── Navbar.jsx
+│   ├── ProjectCarousel.jsx
+│   ├── ProjectShowcase.jsx
+│   ├── ServiceImpactChart.jsx
+│   ├── Services.jsx
+│   ├── Testimonials.jsx
+│   └── WhatsAppButton.jsx
+│
+└── lib
+    └── utils.js
+```
+
+---
+
+## Running the Project
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Notes
 
-To learn more about Next.js, take a look at the following resources:
+The content in this redesign was rewritten and restructured to better communicate the services and improve clarity.
+The goal of the project is to demonstrate how DuoLeadPro's website could look with a stronger modern design and a conversion-focused structure.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Keroles Saad  
+Frontend Developer
