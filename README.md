@@ -242,5 +242,5 @@ The goal of the project is to demonstrate how DuoLeadPro's website could look wi
 
 ## Author
 
-Keroles Saad  
+Keroles Siha  
 Frontend Developer

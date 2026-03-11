@@ -75,8 +75,7 @@ const services = [
         text: 'SEA refers to paid ads at the top of Google with the "Sponsored" label. You pay per click, but you see immediate results. Ideal if you want new customers quickly.',
       },
     ],
-    note:
-      "Our websites are SEO-optimized by default, and SEA setup is available as an optional service when you're ready.",
+    note: "Our websites are SEO-optimized by default, and SEA setup is available as an optional service when you're ready.",
     highlightTitle: "Why marketing for service companies?",
     highlightList: [
       "Customers search Google daily for services like yours.",
@@ -197,10 +196,11 @@ export default function ServicesPage() {
                 </div>
               )}
 
-              {/* لو عايز ترجع الزرار شغّله */}
-              {/* <button className="mt-8 rounded-full bg-white px-6 py-3 font-medium text-black transition hover:bg-slate-200">
-                {service.cta}
-              </button> */}
+              {
+                <button className="mt-8 rounded-full bg-white px-6 py-3 font-medium text-black transition hover:bg-slate-200">
+                  {service.cta}
+                </button>
+              }
             </div>
           ))}
         </section>

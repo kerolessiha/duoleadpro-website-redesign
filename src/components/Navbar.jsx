@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -21,15 +22,16 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0b1220]/80 backdrop-blur-xl">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 md:px-10 lg:px-16">
-        <Link href="/" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-white text-sm font-bold text-black">
-            DP
-          </div>
-          <div>
-            <p className="text-sm font-medium tracking-wide text-white">
-              DuoLeadPro
-            </p>
-            <p className="text-xs text-slate-400">Lead generation partner</p>
+        <Link href="/" className="flex items-center">
+          <div className="rounded-xl bg-white p-1.5 shadow-sm">
+            <Image
+              src="/logo.png"
+              alt="DuoLeadPro Logo"
+              width={140}
+              height={40}
+              className="h-8 w-auto"
+              priority
+            />
           </div>
         </Link>
 

@@ -6,6 +6,10 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata = {
   title: "DuoLeadPro",
   description: "Modern lead generation experiences for service businesses",
+
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {

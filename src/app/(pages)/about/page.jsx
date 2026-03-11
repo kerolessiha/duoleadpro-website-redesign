@@ -104,7 +104,6 @@ export default function AboutPage() {
                 key={member.name}
                 className="rounded-[28px] border border-white/10 bg-white/4 p-7"
               >
-                {/* صورة العضو */}
                 <div className="mb-5 h-20 w-20 overflow-hidden rounded-2xl border border-white/10">
                   <Image
                     src={member.image}
